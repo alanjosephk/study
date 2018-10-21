@@ -16,7 +16,7 @@ export class HttpErrorInterceptor implements HttpInterceptor {
           // do error handling here
           if (err.status === 401) {
 
-          } else if (err.status === 400) {
+          } else if (err.status === 4000) {
 
           } else {
 
